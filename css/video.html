@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--GOOGLE FONT: Open Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    
+    
+
+</head>
+
+<style>
+    *{
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.container{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap:5px;
+  border-radius: 5px;
+  border:2px solid #333;
+  box-shadow: 0 10px 15px #3333;
+  background:#fff;
+  padding:20px;
+}
+
+.container .video-links-container{
+  flex:1 1 400px;
+}
+
+.container .video-container{
+  flex:1 1 400px;
+ pointer-events: none; 
+}
+
+.container .video-container .video{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border:2px solid #333;
+  border-radius: 5px;
+}
+
+.container .video-links-container .video-links{
+  font-size: 20px;
+  color:#333;
+  border:2px solid #333;
+  border-radius: 5px;
+  display: block;
+  padding:10px 15px;
+  margin-bottom: 5px;
+}
+
+.container .video-links-container .video-links:nth-child(odd){
+  background:#eee;
+}
+
+.container .video-links-container .video-links:hover{
+  background:#666;
+  color:#fff;
+}
+
+
+/** FOOTER STYLING **/
+
+#footer {
+    width: 100%;
+    min-height: 40vh;
+    background-color: #262c34;
+    overflow: hidden;
+}
+
+/** GRID **/
+/** ONLY FOR WEB VIEW **/
+#footer .footer-w {
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/** IMG **/
+
+.imgs  img{
+    margin-top: 70px;
+    width: 170px;
+    margin-left: 90px;
+}
+
+/** M-LEFT AND M-RIGHT AND SOCIAL ICONS DIV STYLING **/
+
+.m-left, .m-right, .s-icons {
+    margin-top: 50px;
+}
+
+.s-icons {
+    margin-bottom: 50px;
+}
+
+
+/** SEPERATE STYLING **/
+
+.m-left h2, .m-right h2, .s-icons h2 {
+    margin-bottom: 20px;
+    color: white !important;
+}
+
+.m-left h2, .m-right h2 {
+    font-size: 15px;
+    color: white !important;
+}
+
+.m-left .location, .m-right .contact, .s-icons .s-box span {
+    color: white !important;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.m-left .location {
+    margin-bottom: 20px;
+}
+
+.m-right .contact {
+    margin-bottom: 20px;
+}
+
+/** COLOR BG STATE **/
+
+/** FOR FACEBOOK **/
+.s-box span:nth-child(1) {
+    background-color: #3b5999 !important;
+}
+
+/** FOR TWITTER **/
+.s-box span:nth-child(2) {
+    background-color: #55acee !important;
+}
+
+/** FOR INSTAGRAM **/
+.s-box span:nth-child(3) {
+    background-color: #e4405f !important;
+}
+
+/** FOR YOUTUBE **/
+.s-box span:nth-child(4) {
+    background-color: #cd201f !important;
+}
+/** SOCIAL ICONS BACKGROUND COLOR AND GAP**/
+
+.s-box span i {
+    font-size: 20px;
+}
+
+.s-icons .s-box span {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: rgba(128, 128, 128, 0.609);
+    cursor: pointer;
+    transition: .5s;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/** HOVER STATE **/
+
+/** FOR FACEBOOK **/
+.s-box span:hover:nth-child(1) {
+    background-color: #3b5999;
+}
+
+/** FOR TWITTER **/
+.s-box span:hover:nth-child(2) {
+    background-color: #55acee;;
+}
+
+/** FOR INSTAGRAM **/
+.s-box span:hover:nth-child(3) {
+    background-color: #e4405f;
+}
+
+/** FOR YOUTUBE **/
+.s-box span:hover:nth-child(4) {
+    background-color: #cd201f;
+}
+
+@media only screen and (max-width: 951px) {
+    #footer .footer-w { /** ONLY BLOCK PROPERTY **/
+        padding: 0 50px;
+        display: block;
+        /** APPLY TEXT-ALIGN CENTER TO MAKE MORE BEAUTIFUL **/
+        text-align: center;
+        
+    }
+
+    .imgs img {
+        
+        margin-left: 90px;
+        margin-bottom: -60px;
+        margin-top: 40px;
+    }
+
+}
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="video-links-container">
+            <a href="/images/video-1.mp4"  class="video-links">01. isese day</a>
+            <a href="/images/video-2.mp4" class="video-links">02.  at iga obanikoyi, ikapa eyo 2017</a>
+            <a href="/images/video-3.mp4" class="video-links">03. isese day, at oju olobun enu owa isale eko. august 20th 2019</a>
+            <a href="/images/video-4.mp4" class="video-links">04.  atiga iduganran oba of lagos</a>
+            <a href="/images/video-5.mp4" class="video-links">05. isese day</a>
+            <a href="/images/video-6.mp4" class="video-links">06. isese day</a>
+            <a href="/images/video-7.mp4" class="video-links">07. isese day</a>
+            <a href="/images/video-8.mp4" class="video-links">08. Akinsiku with elders of awe, receiving eyo alakete pupa</a>
+            <a href="/images/tinubu.mp4" class="video-links">09. ika opa for bola ahmed tinubu</a>
+            <a href="/images/akin.mp4" class="video-links">10. Akinsiku dancing with oba of lagos</a>
+            
+        </div>
+
+        <div class="video-container">
+            <video src="images/video-1.mp4" loop  controls class="video"></video>
+        </div>
+
+    </div>
+
+<!--FOOTER STRUCTURE-->
+<footer id="footer">
+  <div class="footer-w">
+    <div class="imgs">
+      <!--CUSTOM IMG-->
+      <img src="/image/eyo3-removebg-preview.png" alt="supportImage">
+    </div>
+    <div class="m-left">
+      <!--HEADING-->
+      <h2>NEED HELP?</h2>
+      <!--FONT AWESOME ICONS OF LOCATION-->
+      <div class="location">
+        <!--Nth child-->
+        <span>
+          <!--ICON-->
+          <!--ICON NAME: Location-->
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <span>
+          <p>Address<br>Iga Olorogun Agan, 35/45 Alagbeji Street, <br> Ita-Ado, Isale-Eko, Lagos</p>
+        </span>
+      </div>
+      <div class="location">
+        <span>
+          <!--ICON-->
+          <!--ICON NAME: Location-->
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <span>
+          <p>Address<br>Iga Olorogun Agan, 35/45 Alagbeji Street, <br> Ita-Ado, Isale-Eko, Lagos</p>
+        </span>
+      </div>
+    </div>
+    <div class="m-right">
+      <!--HEADING-->
+      <h2>FOR CONTACT</h2>
+      <!--FONT AWESOME ICONS OF EMAIL AND PHONE-->
+      <div class="contact">
+        <span>
+          <!--ICON NAME: Envalope-->
+          <i class="fas fa-envelope"></i>
+        </span>
+        <span>
+          <p>Email<br>eyoadamuorisha@gmail.com</p>
+        </span>
+      </div>
+
+      <div class="contact">
+        <span>
+          <!--ICON NAME: Phone-->
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+        </span>
+        <span>
+          <p>Phone<br>(+234) 7037120051 <br>(+234)8023126970</p>
+
+        </span>
+      </div>
+    </div>
+    <div class="s-icons">
+      <!--HEADING-->
+      <h2>BE SOCIAL</h2>
+      <!--SOCIAL ICONS-->
+      <div class="s-box">
+        <!--ICON FOR FACEBOOK-->
+        <span><i class="fab fa-facebook-f"></i></span>
+        <!--ICON FOR TWITTER-->
+        <span><i class="fab fa-twitter"></i></span>
+        <!--ICON FOR INSTAGRAM-->
+        <span><i class="fab fa-instagram"></i></span>
+        <!--ICON FOR YOUTUBE-->
+        <span><i class="fab fa-youtube"></i></span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    <script>
+
+        document.querySelectorAll('.video-links').forEach(links => {
+            links.addEventListener('click', (e) => {
+                e.preventDefault();
+                var src = links.getAttribute('href');
+                document.querySelector('.video').src = src;
+                document.querySelector('.video').play();
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

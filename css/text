@@ -1,0 +1,331 @@
+    <section class="history">
+        <div class="wrapper">
+            <div class="links">
+                <ul>
+                    <li data-view="list-view" class="li-list active">
+                        <i class="fas fa-th-list"></i>
+                        List View
+                    </li>
+                    <li data-view="grid-view" class="li-grid">
+                        <i class="fas fa-th-large"></i>
+                        Grid View
+                    </li>
+                </ul>
+            </div>
+            <div class="view_main">
+                <div class="view_wrap list-view" style="display: block;">
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu1.webp" alt="tomato">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Tomato</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu2.png" alt="chilli">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Chilli</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu3.jpg" alt="carrot">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Carrot</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu4.jpg" alt="onion">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Onion</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu6.jpg" alt="potato">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Potato</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="view_wrap grid-view" style="display: none;">
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/contact-bg.jpg" alt="apple">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Apple</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/contact-png.png" alt="banana">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Banana</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/eyo1-removebg-preview.png" alt="grapes">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Grapes</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/eyo3-removebg-preview.png" alt="pineapple">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Pineapple</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+                    <div class="view_item">
+                        <div class="vi_left">
+                            <img src="/image/adimu6.jpg" alt="strawberry">
+                        </div>
+                        <div class="vi_right">
+                            <p class="title">Strawberry</p>
+                            <p class="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam impedit,
+                                veniam! Voluptate a impedit animi!</p>
+                            <div class="btn">View More</div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+
+
+
+    article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+
+
+.view_item img{
+	width: 75px;
+}
+
+.wrapper{
+	width: 800px;
+	margin: 20px auto;
+}
+
+.links{
+	margin-bottom: 25px;
+	background: #fff;
+	padding: 15px;
+	border-radius: 3px;
+}
+
+.links ul{
+	display: flex;
+	justify-content: center;
+}
+
+.links ul li{
+	margin: 0 15px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.links ul li:hover,
+.links ul li.active{
+	color: #4abd3e;
+}
+
+.view_main{
+	background: #fff;
+	border-radius: 3px;
+	padding: 15px;
+}
+
+.list-view .view_item {
+	background: #fff;
+	border: 1px solid #e2efe1;
+	margin: 10px;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+}
+
+.list-view .view_item:last-child{
+	margin-bottom: 0;
+}
+
+.list-view .view_item .vi_left{
+	margin-right: 25px;
+}
+
+.view_item .title{
+	font-weight: 600;
+}
+
+.view_item .content{
+	margin: 5px 0;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 200;
+}
+
+.view_item .btn{
+	width: 125px;
+	background: #4abd3e;
+	padding: 8px 5px;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	font-weight: 200;
+	cursor: pointer;
+}
+
+.view_item .btn:hover{
+	background: #3bd62b;
+}
+
+.grid-view{
+	width: 100%;
+}
+
+.grid-view .view_item {
+	display: inline-block;
+    border: 1px solid #e2efe1;
+    width: 230px;
+    padding: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.grid-view .view_item .vi_left{
+	margin-bottom: 10px;
+}
+
+.grid-view .view_item .btn{
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+rgb(26, 26, 26)
+                #0ed1c1
+            /* EYO ADIMU STYLE*/
+            svg text {
+              stroke: #fff;
+              font-size: 110px;
+              font-weight: 400;
+              stroke-width: 5;
+              text-transform: uppercase;
+              animation: textAnimate 5s infinite alternate;
+            }
+
+            @keyframes textAnimate {
+              0% {
+                stroke-dasharray: 0 50%;
+                stroke-dashoffset: 20%;
+              }
+
+              100% {
+                stroke-dasharray: 50 0%;
+                stroke-dashoffset: -20%;
+                 }
+            }
+
+
+            linear-gradient(rgba(22, 22, 22, 0.767), rgba(22, 22, 22, 0.897))
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.637),rgba(15, 2, 2, 0.699)),url(/image/adimu2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+
+
+
+
+
+
+  /* socail media icons */
+.fa {
+  padding: 8px;
+  font-size: 28px;
+  width: 50px
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+  color: rgb(187, 182, 182);
+  text-shadow: 2px 2px 4px #000;
+}
+
+
+
+ .logo{
+  margin-left: 140px;
+}
+   
+    .socail-media a.fa{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 40px;
+  margin-right: 9px;
+}
+
+
+
+.contact-info  {
+  text-align: center;
+  display: contents;  
+}
+
+
+background: #2e8d86;
